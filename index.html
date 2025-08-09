@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Desenvolvedor</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="mouse-follower" id="mouse-ball"></div>
+    <!-- Header/Navigation -->
+    <header class="header">
+      <nav class="nav">
+        <div class="nav-brand">
+          <span class="logo">Cod<span class="logo-accent">er</span></span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+          <li class="nav-mobile-btn">
+            <a
+              href="https://wa.me/5511952189276"
+              target="_blank"
+              class="btn-primary"
+              >Conversar</a
+            >
+          </li>
+        </ul>
+        <div class="nav-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <a
+          href="https://wa.me/5511952189276"
+          target="_blank"
+          class="btn-primary"
+          >Conversar</a
+        >
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <span class="hero-greeting">Olá, eu sou</span>
+          <h1 class="hero-name">Wesley Souza</h1>
+          <p class="hero-description">Desenvolvedor Full Stack</p>
+          <div class="hero-buttons">
+            <a
+              href="https://wa.me/5511952189276"
+              target="_blank"
+              class="btn-primary"
+            >
+              Conversar Agora
+            </a>
+            <a
+              href="images/Currículo - Wesley Souza.pdf"
+              download="Currículo - Wesley Souza.pdf"
+              class="btn-secondary"
+              >Download CV</a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-placeholder">
+            <img
+              src="images/fotoGit.jpg"
+              alt="Wesley Souza"
+              class="profile-photo"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-image">
+            <div class="workspace-image">
+              <img
+                src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjR4dnptcXAxZGpjYnlwYnc3ZTg4cnIwYTA3NGc3b2h4Y2Qybm9rMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YFFEDnNTNzL2c8zeuK/giphy.gif"
+                alt="Coffee Animation"
+                class="workspace-gif"
+              />
+            </div>
+            <!-- Substituir esta parte: -->
+            <div class="experience-badge">
+              <span class="experience-number">☕</span>
+              <span class="experience-text">Café?</span>
+            </div>
+          </div>
+          <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <p>
+              Sou Wesley, um jovem profissional de 21 anos com uma paixão
+              ardente por programação e um apetite insaciável por conhecimento.
+              Atualmente cursando Análise e Desenvolvimento de Sistemas na
+              Universidade Cruzeiro do Sul, minha trajetória é marcada por uma
+              busca constante por aprendizado e inovação na área tecnológica,
+              onde me dedico a desenvolver soluções criativas e eficientes.
+              Especializado em desenvolvimento web moderno, sempre explorando
+              novas tecnologias para criar experiências digitais excepcionais.
+            </p>
+
+            <div class="skills">
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 65%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">React</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 65%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">TypeScript</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 40%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Golang</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">PostgreSQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Java</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 30%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">UI/UX Design</span>
+
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 60%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">MySQL</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Meus Projetos</h2>
+        <p class="section-subtitle">Alguns dos meus trabalhos mais recentes</p>
+
+        <div class="projects-grid">
+          <!-- Projeto 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/image.png" alt="Projeto Cabelleza" />
+            </div>
+            <div class="project-content">
+              <h3>Cabelleza</h3>
+              <p>
+                Plataforma focada em realização de soluções entre salões de
+                beleza e doadores de cabelo.
+              </p>
+              <div class="project-tags">
+                <span class="tag">ReactJs</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Java</span>
+                <span class="tag">MySQL</span>
+              </div>
+              <a
+                href="https://github.com/Cabelleza/Cabelleza"
+                class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/PDV.png" alt="Sistema PDV" />
+            </div>
+            <div class="project-content">
+              <h3>Sistema PDV (Ponto de Venda)</h3>
+              <p>
+                Este é um sistema completo de Ponto de Venda (PDV) desenvolvido
+                com TRAE AI
+              </p>
+              <div class="project-tags">
+                <span class="tag">ReactJs</span>
+                <span class="tag">Golang</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <a
+                href="https://github.com/WesleySDev/-Sistema-PDV-Ponto-de-Venda-com-TRAE-AI"
+                target="_blank"
+                class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/DashBoard.png" alt="Dashboard" />
+            </div>
+            <div class="project-content">
+              <h3>Projeto Financeiro</h3>
+              <p>
+                Sistema web completo para gerenciamento de finanças pessoais ,
+                com autenticação de usuários e estrutura inicial para controle
+                de transações financeiras.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Golang</span>
+                <span class="tag">ReactJs</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">PostgreSQL</span>
+              </div>
+              <a
+                href="https://github.com/WesleySDev/Dashboard-Financeiro-Go"
+                class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="project-card">
+            <div class="project-image">
+              <img src="images/Meta.png" alt="Portfolio" />
+            </div>
+            <div class="project-content">
+              <h3>Freelance para Meta 3 Fachadas</h3>
+
+              <p>
+                Desenvolvimento de um site institucional para a Meta 3 Fachadas,
+                com foco em design moderno e funcionalidade.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a href="https://meta3fachadas.com.br/" class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 5 -->
+          <div class="project-card">
+            <div class="project-image">
+              <span> <img src="images/ACSURA.png" alt="Portfolio" /></span>
+            </div>
+            <div class="project-content">
+              <h3>ACSURA</h3>
+
+              <p>
+                Desenvolvimento de um site para a ACSURA, com foco em planos de
+                saúde, com foco em design moderno e funcionalidade.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <a
+                href="https://wesleysdev.github.io/AC-site/"
+                class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+
+          <!-- Projeto 6 -->
+          <div class="project-card">
+            <div class="project-image">
+              <span> <img src="images/PROJETO 4.png" alt="Portfolio" /></span>
+            </div>
+            <div class="project-content">
+              <h3>ToDo List</h3>
+              <p>Aplicativo de lista de tarefas (ToDo List).</p>
+              <div class="project-tags">
+                <span class="tag">HTML/CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag"></span>
+              </div>
+              <a
+                href="https://projeto-tarefas-jjr64ak6i-wesley278.vercel.app/"
+                class="project-link"
+                >Ver Projeto</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="contact-info">
+            <h2>Vamos Trabalhar Juntos</h2>
+            <p>
+              Estou sempre aberto a discutir novos projetos e oportunidades
+              interessantes.
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <span class="contact-label">Email:</span>
+                <span class="contact-value">wesleydasilva278@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Telefone:</span>
+                <span class="contact-value">+55 (11) 95218-9276</span>
+              </div>
+              <div class="contact-item">
+                <span class="contact-label">Localização:</span>
+                <span class="contact-value">São Paulo, Brasil</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <form
+              action="mailto:wesleydasilva278@gmail.com"
+              method="post"
+              enctype="text/plain"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="nome"
+                  placeholder="Seu Nome"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Seu Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="mensagem"
+                  placeholder="Sua Mensagem"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn-primary">Enviar Mensagem</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <span class="logo">Cod<span class="logo-accent">er</span></span>
+            <p>
+              Desenvolvedor Full Stack apaixonado por criar soluções digitais
+              inovadoras.
+            </p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-section">
+              <h4>Links Rápidos</h4>
+              <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h4>Redes Sociais</h4>
+              <ul>
+                <li>
+                  <a href="https://www.linkedin.com/in/wesleysouzas/"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li><a href="https://github.com/WesleySDev">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
