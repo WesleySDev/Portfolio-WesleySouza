@@ -1,6 +1,6 @@
 # Portfólio Wesley Souza
 
-![Portfolio Preview](images/PORTFOLIO.png)
+![Portfolio Preview](images/PORTIFOLIO.png)
 
 Meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript vanilla.
 
