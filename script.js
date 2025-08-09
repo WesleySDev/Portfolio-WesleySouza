@@ -135,10 +135,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
+            e.preventDefault(); // Sempre prevenir o envio padrão
             
             // Pegar os dados do formulário
-            const formData = new FormData(this);
             const name = this.querySelector('input[type="text"]').value;
             const email = this.querySelector('input[type="email"]').value;
             const message = this.querySelector('textarea').value;
@@ -154,18 +153,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // Simular envio (aqui você pode integrar com um serviço real)
-            const submitButton = this.querySelector('.btn-primary');
-            const originalText = submitButton.textContent;
+            // Criar link mailto com os dados do formulário
+            const subject = encodeURIComponent('Contato do Portfolio - ' + name);
+            const body = encodeURIComponent(
+                'Nome: ' + name + '\n' +
+                'Email: ' + email + '\n\n' +
+                'Mensagem:\n' + message
+            );
             
-            submitButton.textContent = 'Enviando...';
-            submitButton.disabled = true;
+            const mailtoLink = `mailto:wesleydasilva278@gmail.com?subject=${subject}&body=${body}`;
             
+            // Abrir cliente de email
+            window.location.href = mailtoLink;
+            
+            showNotification('Abrindo cliente de email...', 'success');
+            
+            // Limpar formulário após 2 segundos
             setTimeout(() => {
-                showNotification('Mensagem enviada com sucesso! Entrarei em contato em breve.', 'success');
                 this.reset();
-                submitButton.textContent = originalText;
-                submitButton.disabled = false;
             }, 2000);
         });
     }

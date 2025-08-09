@@ -1,7 +1,5 @@
 # Portfólio Wesley Souza
 
-![Portfolio Preview](images/PORTIFOLIO.png)
-
 Meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript vanilla.
 
 ## 🚀 Tecnologias Utilizadas
@@ -21,7 +19,7 @@ Meu portfólio pessoal desenvolvido com HTML, CSS e JavaScript vanilla.
 
 ## 🔗 Acesso
 
-Visite meu portfólio: [Wesley Souza Portfolio](https://github.com/WesleySDev)
+Visite meu portfólio: [Portfolio do Wesley](https://github.com/WesleySDev)
 
 ---
 
